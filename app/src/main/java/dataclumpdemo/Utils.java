@@ -56,7 +56,15 @@ import org.checkerframework.checker.nullness.qual.NonNull;
 
 
 
+public class MathUtils{
+    public double geometricMean(double a, double b, double c, double d){
+        return Math.pow(a*b*c*d, 1/4);
+    }
 
+    public double arithmeticMean(double a, double b, double c, double d){
+        return (a+b+c+d)/4;
+    }
+}
 
 
 
